@@ -1,0 +1,31 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": ["./.yarn/*", "./build/*", "./dist/*", "./node_modules/*"]
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
+	},
+	"linter": {
+		"rules": {
+			"all": true,
+			"style": {
+				"useFilenamingConvention": "off"
+			}
+		}
+	},
+	"overrides": [
+		{
+			"include": ["./config/**"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noDefaultExport": "off"
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"name": "@ivangabriele/biome-config",
+	"description": "My most commonly used Biome configuration.",
+	"license": "MIT",
+	"version": "0.0.0",
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	},
+	"main": "./index.jsonc",
+	"scripts": {
+		"prepare": "husky",
+		"test:lint": "biome check --apply --files-ignore-unknown=true --no-errors-on-unmatched ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.0",
+		"@commitlint/cli": "18.6.0",
+		"@commitlint/config-conventional": "18.6.0",
+		"@ivangabriele/commitlint-config": "2.0.3",
+		"@ivangabriele/prettier-config": "5.0.1",
+		"@ivangabriele/semantic-release-config-base": "4.1.3",
+		"husky": "9.0.10",
+		"lint-staged": "15.2.2",
+		"prettier": "3.2.5",
+		"semantic-release": "23.0.2"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": "^1"
+	},
+	"lint-staged": {
+		"*.{md,yaml,yml}": "prettier --write",
+		"*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": [
+			"biome check --apply --files-ignore-unknown=true --no-errors-on-unmatched"
+		]
+	},
+	"packageManager": "yarn@4.2.2",
+	"prettier": "@ivangabriele/prettier-config",
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	},
+	"release": {
+		"extends": "@ivangabriele/semantic-release-config-base"
+	},
+	"author": {
+		"name": "Ivan Gabriele",
+		"email": "ivan.gabriele@protonmail.com",
+		"url": "https://www.ivangabriele.com"
+	},
+	"bugs": "https://github.com/ivangabriele/biome-config/issues",
+	"homepage": "https://github.com/ivangabriele/biome-config#readme",
+	"keywords": ["biome", "biomejs", "config"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ivangabriele/biome-config.git"
+	}
+}
