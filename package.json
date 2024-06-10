@@ -2,7 +2,7 @@
 	"name": "@ivangabriele/biome-config",
 	"description": "My most commonly used Biome configuration.",
 	"license": "MIT",
-	"version": "0.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"engines": {
 		"node": ">=20"
@@ -49,7 +49,11 @@
 	},
 	"bugs": "https://github.com/ivangabriele/biome-config/issues",
 	"homepage": "https://github.com/ivangabriele/biome-config#readme",
-	"keywords": ["biome", "biomejs", "config"],
+	"keywords": [
+		"biome",
+		"biomejs",
+		"config"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ivangabriele/biome-config.git"
