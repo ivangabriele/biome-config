@@ -7,7 +7,10 @@
 	"engines": {
 		"node": ">=20"
 	},
-	"main": "./index.jsonc",
+	"//": "https://biomejs.dev/guides/how-biome-works/#extend-biomejson-from-a-library",
+	"exports": {
+		".": "./index.jsonc"
+	},
 	"scripts": {
 		"prepare": "husky",
 		"test:lint": "biome check --apply --files-ignore-unknown=true --no-errors-on-unmatched ."
@@ -49,11 +52,7 @@
 	},
 	"bugs": "https://github.com/ivangabriele/biome-config/issues",
 	"homepage": "https://github.com/ivangabriele/biome-config#readme",
-	"keywords": [
-		"biome",
-		"biomejs",
-		"config"
-	],
+	"keywords": ["biome", "biomejs", "config"],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ivangabriele/biome-config.git"

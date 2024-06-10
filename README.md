@@ -27,8 +27,8 @@ Add this line to your `biome.jsonc`:
 
 ```jsonc
 {
-  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["@ivangabriele/biome-config/index.jsonc"],
+  "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
+  "extends": ["@ivangabriele/biome-config"],
 }
 ```
 
