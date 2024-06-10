@@ -1,3 +1,15 @@
+## [1.0.2](https://github.com/ivangabriele/biome-config/compare/v1.0.1...v1.0.2) (2024-06-10)
+
+
+### Bug Fixes
+
+* **npm:** add missing package export ([c6c74b2](https://github.com/ivangabriele/biome-config/commit/c6c74b2830e0f6f9ae8b463b263cc9f85e11f485))
+
+
+### Documentation
+
+* **changelog:** restore missing v1.0.0 section ([566d20e](https://github.com/ivangabriele/biome-config/commit/566d20ea5f7c57d9939f7fb49b4f30e67d4181be))
+
 ## [1.0.1](https://github.com/ivangabriele/biome-config/compare/v1.0.0...v1.0.1) (2024-06-10)
 
 
