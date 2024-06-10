@@ -9,6 +9,8 @@ My most commonly used [Biome](https://biomejs.dev) configuration.
 
 - [Usage](#usage)
   - [Lint-Staged](#lint-staged)
+  - [IDEs](#ides)
+    - [Visual Studio Code](#visual-studio-code)
 - [Contribute](#contribute)
 
 ---
@@ -54,6 +56,36 @@ Then add this line to your `package.json`:
 {
   "lint-staged": {
     "*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": ["yarn test:lint"]
+  }
+}
+```
+
+### IDEs
+
+#### Visual Studio Code
+
+Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) extension.
+
+`.vscode/settings.json`:
+
+```json
+{
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
   }
 }
 ```
