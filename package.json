@@ -30,6 +30,9 @@
   "peerDependencies": {
     "@biomejs/biome": "^1"
   },
+  "resolutions": {
+    "ip": "2.0.1"
+  },
   "lint-staged": {
     "*.{md,yaml,yml}": "prettier --write",
     "*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": [
