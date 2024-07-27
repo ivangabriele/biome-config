@@ -64,14 +64,14 @@ Then add this line to your `package.json`:
 
 #### Visual Studio Code
 
-Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) extension.
+Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) and
+[https://marketplace.visualstudio.com/items?itemName=emeraldwalk.runonsave] extensions.
 
 `.vscode/settings.json`:
 
 ```json
 {
   "editor.defaultFormatter": "biomejs.biome",
-  "editor.formatOnSave": true,
   "[javascript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
@@ -86,6 +86,14 @@ Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biom
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "yarn test:lint"
+      }
+    ]
   }
 }
 ```
