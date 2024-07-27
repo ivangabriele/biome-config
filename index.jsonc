@@ -1,7 +1,7 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
   "files": {
-    "ignore": ["./.next/*", "./.yarn/*", "./build/*", "./dist/*", "./node_modules/*"]
+    "ignore": ["/.next/*", "/.yarn/*", "/build/*", "/dist/*", "/node_modules/*"]
   },
   "formatter": {
     "indentStyle": "space",
