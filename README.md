@@ -65,7 +65,7 @@ Then add this line to your `package.json`:
 #### Visual Studio Code
 
 Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) and
-[https://marketplace.visualstudio.com/items?itemName=emeraldwalk.runonsave] extensions.
+[Run On Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.runonsave) extensions.
 
 `.vscode/settings.json`:
 
