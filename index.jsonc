@@ -19,6 +19,7 @@
       "all": true,
       "style": {
         "noImplicitBoolean": "off",
+        "noNamespace": "off",
         "useFilenamingConvention": "off"
       }
     }
