@@ -1,3 +1,35 @@
+## [1.1.0](https://github.com/ivangabriele/biome-config/compare/v1.0.2...v1.1.0) (2024-07-27)
+
+
+### Features
+
+* disable noDefaultExport rule for app/ and config files ([ae08336](https://github.com/ivangabriele/biome-config/commit/ae08336d34f2a9c1ec1c8cfda5ce744b1b563424))
+* disable noImplicitBoolean rule ([6dfb162](https://github.com/ivangabriele/biome-config/commit/6dfb162ab286b2a5b6358c326b5b48cc60b55cd1))
+* disable noNamespace rule ([ce67c8a](https://github.com/ivangabriele/biome-config/commit/ce67c8a9ea16a496bcf7dc7e6329e0bcb89020be))
+* ignore .next/ directory ([2f10d0b](https://github.com/ivangabriele/biome-config/commit/2f10d0bd979abe734f2168dddf59f3d9bbe3cc01))
+* set quoteStyle to single ([4ac1eca](https://github.com/ivangabriele/biome-config/commit/4ac1ecac324f880841e9410b3647f2358f9e572f))
+* setup formatter indent style, width & line width ([ed66b58](https://github.com/ivangabriele/biome-config/commit/ed66b582be657da26d0d98678205a4905e7ee883))
+
+
+### Bug Fixes
+
+* ignore package.json ([47a9c3a](https://github.com/ivangabriele/biome-config/commit/47a9c3a2e32f87af356c8c8630210c813d7d6a47))
+* remove root prefix from ignored directory patterns ([b720815](https://github.com/ivangabriele/biome-config/commit/b7208151faea336f1d94560a07a0d07d1e066936))
+
+
+### Documentation
+
+* **readme:** update VSCode recommended settings ([676b295](https://github.com/ivangabriele/biome-config/commit/676b29565435a11811989982fd85cbff98a6c2ff))
+
+
+### Build System
+
+* **deps:** bump braces from 3.0.2 to 3.0.3 ([#7](https://github.com/ivangabriele/biome-config/issues/7)) ([af3047c](https://github.com/ivangabriele/biome-config/commit/af3047cfc31b35d70a4ffc1e701d81779e02fa05))
+* **deps:** bump tar from 6.2.0 to 6.2.1 ([#8](https://github.com/ivangabriele/biome-config/issues/8)) ([4feaa29](https://github.com/ivangabriele/biome-config/commit/4feaa297af39dc83558e65a7e5fb5074cd4b607a))
+* **dev-deps:** resolve ip to v2.0.1 [CWE-918] ([f9c1ba9](https://github.com/ivangabriele/biome-config/commit/f9c1ba9fb51a8025ea4486f92e390a3e27ea971d))
+* **dev-deps:** upgrade all dev dependencies ([fff4567](https://github.com/ivangabriele/biome-config/commit/fff456748201a04b5c676eef93ef15e088365a8b))
+* **yarn:** upgrade to v4.3.1 ([99f7015](https://github.com/ivangabriele/biome-config/commit/99f7015acc78ae08acf34a20ad6e332b1acfb0e2))
+
 ## [1.0.2](https://github.com/ivangabriele/biome-config/compare/v1.0.1...v1.0.2) (2024-06-10)
 
 
