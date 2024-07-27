@@ -13,6 +13,7 @@
 		"rules": {
 			"all": true,
 			"style": {
+				"noImplicitBoolean": "off",
 				"useFilenamingConvention": "off"
 			}
 		}
