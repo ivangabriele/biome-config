@@ -18,7 +18,7 @@
 	},
 	"overrides": [
 		{
-			"include": ["./config/**"],
+			"include": ["./app/**", "./config/**", "*.config.js"],
 			"linter": {
 				"rules": {
 					"style": {
