@@ -1,33 +1,38 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
-	"files": {
-		"ignore": ["./.yarn/*", "./build/*", "./dist/*", "./node_modules/*"]
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "single",
-			"semicolons": "asNeeded"
-		}
-	},
-	"linter": {
-		"rules": {
-			"all": true,
-			"style": {
-				"noImplicitBoolean": "off",
-				"useFilenamingConvention": "off"
-			}
-		}
-	},
-	"overrides": [
-		{
-			"include": ["./app/**", "./config/**", "*.config.js"],
-			"linter": {
-				"rules": {
-					"style": {
-						"noDefaultExport": "off"
-					}
-				}
-			}
-		}
-	]
+  "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
+  "files": {
+    "ignore": ["./.yarn/*", "./build/*", "./dist/*", "./node_modules/*"]
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 120
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "semicolons": "asNeeded"
+    }
+  },
+  "linter": {
+    "rules": {
+      "all": true,
+      "style": {
+        "noImplicitBoolean": "off",
+        "useFilenamingConvention": "off"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "include": ["./app/**", "./config/**", "*.config.js"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noDefaultExport": "off"
+          }
+        }
+      }
+    }
+  ]
 }
