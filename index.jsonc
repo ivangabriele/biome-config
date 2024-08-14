@@ -17,6 +17,9 @@
   "linter": {
     "rules": {
       "all": true,
+      "correctness": {
+        "noNodejsModules": "off"
+      },
       "style": {
         "noImplicitBoolean": "off",
         "noNamespace": "off",
