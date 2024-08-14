@@ -1,3 +1,20 @@
+## [1.2.0](https://github.com/ivangabriele/biome-config/compare/v1.1.0...v1.2.0) (2024-08-14)
+
+
+### Features
+
+* disable lint/correctness/noNodejsModules rule ([f9777cf](https://github.com/ivangabriele/biome-config/commit/f9777cf562ea61d7a808a2b0e3360a34af105d4a))
+
+
+### Documentation
+
+* **readme:** fix typo ([1a9fa5e](https://github.com/ivangabriele/biome-config/commit/1a9fa5e7be6a48a4e1fe99a1e53eace8a9b694f0))
+
+
+### Build System
+
+* **dev-deps:** update dependency husky to v9.1.4 ([#10](https://github.com/ivangabriele/biome-config/issues/10)) ([bf159f5](https://github.com/ivangabriele/biome-config/commit/bf159f5b37439d840a27f635d9d534739856c544))
+
 ## [1.1.0](https://github.com/ivangabriele/biome-config/compare/v1.0.2...v1.1.0) (2024-07-27)
 
 
