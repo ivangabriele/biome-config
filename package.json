@@ -2,7 +2,7 @@
   "name": "@ivangabriele/biome-config",
   "description": "My most commonly used Biome configuration.",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "engines": {
     "node": ">=20"
