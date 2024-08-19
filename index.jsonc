@@ -13,7 +13,8 @@
       "quoteStyle": "single",
       "semicolons": "asNeeded",
       "trailingCommas": "all"
-    }
+    },
+    "globals": ["afterAll", "afterEach", "beforeAll", "beforeEach", "describe", "expect", "it", "jest", "test"]
   },
   "linter": {
     "rules": {
