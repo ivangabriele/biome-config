@@ -37,7 +37,7 @@ Then add this line to your `package.json`:
 ```json
 {
   "scripts": {
-    "test:lint": "biome check --apply --files-ignore-unknown=true --no-errors-on-unmatched ."
+    "test:lint": "biome check --write --no-errors-on-unmatched ."
   }
 }
 ```

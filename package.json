@@ -13,7 +13,7 @@
   },
   "scripts": {
     "prepare": "husky",
-    "test:lint": "biome check --write --files-ignore-unknown=true --no-errors-on-unmatched ."
+    "test:lint": "biome check --write --no-errors-on-unmatched ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
@@ -36,7 +36,7 @@
   "lint-staged": {
     "*.{md,yaml,yml}": "prettier --write",
     "*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": [
-      "biome check --write --files-ignore-unknown=true --no-errors-on-unmatched"
+      "biome check --write --no-errors-on-unmatched"
     ]
   },
   "packageManager": "yarn@4.4.0",
