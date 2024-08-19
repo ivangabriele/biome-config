@@ -1,3 +1,18 @@
+## [1.3.0](https://github.com/ivangabriele/biome-config/compare/v1.2.0...v1.3.0) (2024-08-19)
+
+
+### Features
+
+* add Jest globals in javascript.globals ([d2eac6e](https://github.com/ivangabriele/biome-config/commit/d2eac6e11b320933c5911406e66214b26c6930bf))
+* enable files.ignoreUnknown flag ([39770d3](https://github.com/ivangabriele/biome-config/commit/39770d3349b8f9a415141e1b79bcf793c598880d))
+* include more extensions for config files override ([6068920](https://github.com/ivangabriele/biome-config/commit/6068920238e2d1c84c645a8c56728b0b11dbbcca))
+* set javascript.formatter.trailingComma to all ([2dc3f48](https://github.com/ivangabriele/biome-config/commit/2dc3f480f4532957bd79dd5cb3f19f6a6cd6151d))
+
+
+### Build System
+
+* **dev-deps:** update all non-major dependencies ([#11](https://github.com/ivangabriele/biome-config/issues/11)) ([a1cf91c](https://github.com/ivangabriele/biome-config/commit/a1cf91cda8fae11eea7413402b1e986d4fe20c1f))
+
 ## [1.2.0](https://github.com/ivangabriele/biome-config/compare/v1.1.0...v1.2.0) (2024-08-14)
 
 
