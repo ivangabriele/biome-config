@@ -1,3 +1,15 @@
+## [1.4.0](https://github.com/ivangabriele/biome-config/compare/v1.3.0...v1.4.0) (2024-08-21)
+
+
+### Features
+
+* disable linter/style/useNamingConvention rule for constants & typings ([24d951f](https://github.com/ivangabriele/biome-config/commit/24d951f63f22971d43761f9f77360601fa430a9a))
+
+
+### Bug Fixes
+
+* exclude via .gitinore file rather than via opinionated list ([8997c0f](https://github.com/ivangabriele/biome-config/commit/8997c0fcf4dd0305bb8cd4cec7dcbf0309c69013))
+
 ## [1.3.0](https://github.com/ivangabriele/biome-config/compare/v1.2.0...v1.3.0) (2024-08-19)
 
 
