@@ -37,7 +37,24 @@
   },
   "overrides": [
     {
-      "include": ["./app/**", "**/config/**", "*.config.cjs", "*.config.js", "*.config.mjs", "*.config.ts"],
+      "include": ["**/constants/**", "**/constants.ts", "**/types.ts", "**/*.types.ts", "**/typings/**/*.d.ts"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useNamingConvention": "off"
+          }
+        }
+      }
+    },
+    {
+      "include": [
+        "./app/**/*",
+        "**/config/**/*",
+        "**/*.config.cjs",
+        "**/*.config.js",
+        "**/*.config.mjs",
+        "**/*.config.ts"
+      ],
       "linter": {
         "rules": {
           "style": {
