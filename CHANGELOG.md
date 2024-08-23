@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/ivangabriele/biome-config/compare/v1.4.0...v1.5.0) (2024-08-23)
+
+
+### Features
+
+* set javascript.formatter.arrowParentheses to asNeeded ([08e85cb](https://github.com/ivangabriele/biome-config/commit/08e85cbad634e84a4b4372b5947dee9e16cbefd3))
+
 ## [1.4.0](https://github.com/ivangabriele/biome-config/compare/v1.3.0...v1.4.0) (2024-08-21)
 
 
