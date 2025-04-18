@@ -16,16 +16,16 @@
     "test:lint": "biome check --write --no-errors-on-unmatched ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.3",
-    "@commitlint/cli": "19.4.0",
-    "@commitlint/config-conventional": "19.2.2",
+    "@biomejs/biome": "1.9.4",
+    "@commitlint/cli": "19.8.0",
+    "@commitlint/config-conventional": "19.8.0",
     "@ivangabriele/commitlint-config": "2.0.3",
     "@ivangabriele/prettier-config": "5.0.1",
     "@ivangabriele/semantic-release-config-base": "4.1.5",
-    "husky": "9.1.4",
-    "lint-staged": "15.2.9",
-    "prettier": "3.3.3",
-    "semantic-release": "24.0.0"
+    "husky": "9.1.7",
+    "lint-staged": "15.5.1",
+    "prettier": "3.5.3",
+    "semantic-release": "24.2.3"
   },
   "peerDependencies": {
     "@biomejs/biome": "^1"
@@ -39,7 +39,7 @@
       "biome check --write --no-errors-on-unmatched"
     ]
   },
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.9.1",
   "prettier": "@ivangabriele/prettier-config",
   "publishConfig": {
     "access": "public",
