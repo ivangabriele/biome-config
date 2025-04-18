@@ -40,7 +40,7 @@ jobs:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           trust_level: ultimate
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: ci-release-v${{ env.NEW_VERSION }}
           committer: 'Ivan Gabriele (Github) <ivan.gabriele+github@protonmail.com>'
