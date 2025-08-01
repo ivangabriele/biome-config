@@ -1,3 +1,25 @@
+## [2.0.0](https://github.com/ivangabriele/biome-config/compare/v1.5.1...v2.0.0) (2025-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate Biome from v1 to v2.
+* **node:** require Node.js version to be >=24.
+
+### Features
+
+* migrate Biome from v1 to v2 ([ed45208](https://github.com/ivangabriele/biome-config/commit/ed45208f2d19ae84511147addbdccb73b84a88a2))
+
+
+### Styles
+
+* lint renovate config ([fcf3260](https://github.com/ivangabriele/biome-config/commit/fcf32607c800b19bfbf4db446ed92b1989a17076))
+
+
+### Build System
+
+* **node:** migrate Node.js from v20 to v24 ([bd8f7fb](https://github.com/ivangabriele/biome-config/commit/bd8f7fb125e0b13dbaef740219f557358e0e20b1))
+
 ## [1.5.1](https://github.com/ivangabriele/biome-config/compare/v1.5.0...v1.5.1) (2025-08-01)
 
 
