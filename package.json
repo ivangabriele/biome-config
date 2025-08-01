@@ -5,7 +5,7 @@
   "version": "1.5.1",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "//": "https://biomejs.dev/guides/how-biome-works/#extend-biomejson-from-a-library",
   "exports": {
