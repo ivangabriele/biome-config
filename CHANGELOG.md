@@ -1,3 +1,13 @@
+## [1.5.1](https://github.com/ivangabriele/biome-config/compare/v1.5.0...v1.5.1) (2025-08-01)
+
+
+### Build System
+
+* **dev-deps:** update all non-major dependencies ([#16](https://github.com/ivangabriele/biome-config/issues/16)) ([d93668d](https://github.com/ivangabriele/biome-config/commit/d93668d6b6a9c640cd59aec698eb79245d20db94))
+* **dev-deps:** update all non-major dependencies ([#18](https://github.com/ivangabriele/biome-config/issues/18)) ([418b156](https://github.com/ivangabriele/biome-config/commit/418b156681efa25e0aead086abcf641684918f98))
+* **dev-deps:** update all non-major dependencies ([#20](https://github.com/ivangabriele/biome-config/issues/20)) ([58cd779](https://github.com/ivangabriele/biome-config/commit/58cd77938c43626f040b10b73a3e807021a0c01a))
+* **dev-deps:** update dependency lint-staged to v16 ([#19](https://github.com/ivangabriele/biome-config/issues/19)) ([85ee8d8](https://github.com/ivangabriele/biome-config/commit/85ee8d88b1527c9c570434f7b8e2791f014867c3))
+
 ## [1.5.0](https://github.com/ivangabriele/biome-config/compare/v1.4.0...v1.5.0) (2024-08-23)
 
 
