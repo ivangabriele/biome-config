@@ -27,7 +27,7 @@ jobs:
       - name: Release
         run: yarn semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Get new version
         run: echo "NEW_VERSION=$(npm pkg get version | sed 's/"//g')" >> "$GITHUB_ENV"
@@ -46,4 +46,4 @@ jobs:
           committer: 'Ivan Gabriele (Github) <ivan.gabriele+github@protonmail.com>'
           commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
           title: 'ci(release): v${{ env.NEW_VERSION }}'
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
