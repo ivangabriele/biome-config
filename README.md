@@ -27,7 +27,7 @@ Add this line to your `biome.jsonc`:
 
 ```jsonc
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
   "extends": ["@ivangabriele/biome-config"],
 }
 ```
@@ -71,6 +71,9 @@ Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biom
 
 ```json
 {
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+  },
   "editor.defaultFormatter": "biomejs.biome",
   "[javascript]": {
     "editor.defaultFormatter": "biomejs.biome"
@@ -86,14 +89,6 @@ Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biom
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
-  },
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": ".*",
-        "cmd": "yarn test:lint"
-      }
-    ]
   }
 }
 ```
