@@ -46,4 +46,4 @@ jobs:
           committer: 'Ivan Gabriele (Github) <ivan.gabriele+github@protonmail.com>'
           commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
           title: 'ci(release): v${{ env.NEW_VERSION }}'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
