@@ -87,18 +87,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/biome@npm:2.3.2"
+"@biomejs/biome@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/biome@npm:2.3.11"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.3.2"
-    "@biomejs/cli-darwin-x64": "npm:2.3.2"
-    "@biomejs/cli-linux-arm64": "npm:2.3.2"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.3.2"
-    "@biomejs/cli-linux-x64": "npm:2.3.2"
-    "@biomejs/cli-linux-x64-musl": "npm:2.3.2"
-    "@biomejs/cli-win32-arm64": "npm:2.3.2"
-    "@biomejs/cli-win32-x64": "npm:2.3.2"
+    "@biomejs/cli-darwin-arm64": "npm:2.3.11"
+    "@biomejs/cli-darwin-x64": "npm:2.3.11"
+    "@biomejs/cli-linux-arm64": "npm:2.3.11"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.3.11"
+    "@biomejs/cli-linux-x64": "npm:2.3.11"
+    "@biomejs/cli-linux-x64-musl": "npm:2.3.11"
+    "@biomejs/cli-win32-arm64": "npm:2.3.11"
+    "@biomejs/cli-win32-x64": "npm:2.3.11"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -118,62 +118,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/f9f132e87fd6ab00bcac7f24dffa89a838087b04ff983398f6ce5d2b2de6a45ee05ba05140a9718153780e5e7dc02ed18955e7a1fde4769484ed4a80df82efe1
+  checksum: 10c0/b9764070c3d1583466a8861d37dc480c18103f7bb52115db0f265a38e6343d69792c9beea094e0b3db0905cb365b9a82ad2a0f3f05b7f04873a8f9b444263140
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.3.2"
+"@biomejs/cli-darwin-arm64@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.3.11"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-darwin-x64@npm:2.3.2"
+"@biomejs/cli-darwin-x64@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-darwin-x64@npm:2.3.11"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.3.2"
+"@biomejs/cli-linux-arm64-musl@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.3.11"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-linux-arm64@npm:2.3.2"
+"@biomejs/cli-linux-arm64@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-linux-arm64@npm:2.3.11"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.3.2"
+"@biomejs/cli-linux-x64-musl@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.3.11"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-linux-x64@npm:2.3.2"
+"@biomejs/cli-linux-x64@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-linux-x64@npm:2.3.11"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-win32-arm64@npm:2.3.2"
+"@biomejs/cli-win32-arm64@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-win32-arm64@npm:2.3.11"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.3.2":
-  version: 2.3.2
-  resolution: "@biomejs/cli-win32-x64@npm:2.3.2"
+"@biomejs/cli-win32-x64@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@biomejs/cli-win32-x64@npm:2.3.11"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -442,15 +442,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivangabriele/biome-config@workspace:."
   dependencies:
-    "@biomejs/biome": "npm:2.3.2"
+    "@biomejs/biome": "npm:2.3.11"
     "@commitlint/cli": "npm:20.3.1"
     "@commitlint/config-conventional": "npm:20.3.1"
     "@ivangabriele/commitlint-config": "npm:2.0.3"
     "@ivangabriele/prettier-config": "npm:5.0.1"
     "@ivangabriele/semantic-release-config-base": "npm:4.1.5"
     husky: "npm:9.1.7"
-    lint-staged: "npm:16.2.6"
-    prettier: "npm:3.6.2"
+    lint-staged: "npm:16.2.7"
+    prettier: "npm:3.7.4"
     semantic-release: "npm:25.0.2"
   peerDependencies:
     "@biomejs/biome": ^2
@@ -2220,7 +2220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^14.0.1":
+"commander@npm:^14.0.2":
   version: 14.0.2
   resolution: "commander@npm:14.0.2"
   checksum: 10c0/245abd1349dbad5414cb6517b7b5c584895c02c4f7836ff5395f301192b8566f9796c82d7bd6c92d07eba8775fe4df86602fca5d86d8d10bcc2aded1e21c2aeb
@@ -3988,11 +3988,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:16.2.6":
-  version: 16.2.6
-  resolution: "lint-staged@npm:16.2.6"
+"lint-staged@npm:16.2.7":
+  version: 16.2.7
+  resolution: "lint-staged@npm:16.2.7"
   dependencies:
-    commander: "npm:^14.0.1"
+    commander: "npm:^14.0.2"
     listr2: "npm:^9.0.5"
     micromatch: "npm:^4.0.8"
     nano-spawn: "npm:^2.0.0"
@@ -4001,7 +4001,7 @@ __metadata:
     yaml: "npm:^2.8.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10c0/6bae38082a0fcb3f699b144d1a4b85394f259f17a1f8a58b22122b9f1c6bb5e8340d6ee4bff12e52dbc4267377d6dde9e5c206157f381f1924a2640717f769c1
+  checksum: 10c0/9a677c21a8112d823ae5bc565ba2c9e7b803786f2a021c46827a55fe44ed59def96edb24fc99c06a2545cdbbf366022ad82addcb3bf60c712f3b98ef92069717
   languageName: node
   linkType: hard
 
@@ -5528,12 +5528,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.6.2":
-  version: 3.6.2
-  resolution: "prettier@npm:3.6.2"
+"prettier@npm:3.7.4":
+  version: 3.7.4
+  resolution: "prettier@npm:3.7.4"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/488cb2f2b99ec13da1e50074912870217c11edaddedeadc649b1244c749d15ba94e846423d062e2c4c9ae683e2d65f754de28889ba06e697ac4f988d44f45812
+  checksum: 10c0/9675d2cd08eacb1faf1d1a2dbfe24bfab6a912b059fc9defdb380a408893d88213e794a40a2700bd29b140eb3172e0b07c852853f6e22f16f3374659a1a13389
   languageName: node
   linkType: hard
 
