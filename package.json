@@ -25,7 +25,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.6",
     "prettier": "3.6.2",
-    "semantic-release": "24.2.9"
+    "semantic-release": "25.0.2"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2"
