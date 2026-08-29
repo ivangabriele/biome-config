@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "2.0.0",
   "type": "module",
-  "packageManager": "pnpm@11.16.0",
+  "packageManager": "pnpm@11.24.0",
   "engines": {
     "node": ">=24"
   },
@@ -17,16 +17,16 @@
     "test:lint": "biome check --write --no-errors-on-unmatched ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.11",
-    "@commitlint/cli": "20.3.1",
-    "@commitlint/config-conventional": "20.3.1",
+    "@biomejs/biome": "2.5.11",
+    "@commitlint/cli": "20.5.3",
+    "@commitlint/config-conventional": "20.5.3",
     "@ivangabriele/commitlint-config": "2.0.3",
     "@ivangabriele/prettier-config": "5.0.1",
     "@ivangabriele/semantic-release-config-base": "4.1.5",
     "husky": "9.1.7",
-    "lint-staged": "16.2.7",
-    "prettier": "3.7.4",
-    "semantic-release": "25.0.2"
+    "lint-staged": "16.4.0",
+    "prettier": "3.9.6",
+    "semantic-release": "25.0.9"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2"
