@@ -14,7 +14,8 @@
   },
   "scripts": {
     "prepare": "husky",
-    "test:lint": "biome check --write --no-errors-on-unmatched ."
+    "test:lint": "biome check --write --no-errors-on-unmatched .",
+    "test:release": "env -u GH_TOKEN -u GITHUB_TOKEN semantic-release --dry-run --repository-url git@github.com:ivangabriele/biome-config.git --verify-conditions @semantic-release/changelog"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.11",

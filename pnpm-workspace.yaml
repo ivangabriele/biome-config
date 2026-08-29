@@ -1,7 +1,10 @@
 # semantic-release-config-base pins plugin versions that predate semantic-release v25
 # (npm@11 lacks trusted publishing, release-notes-generator@12 crashes on v25 commit dates);
 # align them with the versions semantic-release v25 itself depends on
+# conventionalcommits preset is resolved at runtime by release-notes-generator (writer v8);
+# without this override the v10 preset hoisted by commitlint@21 wins and crashes generateNotes
 overrides:
+  conventional-changelog-conventionalcommits: 8.0.0
   '@semantic-release/commit-analyzer': 13.0.1
   '@semantic-release/github': 12.0.9
   '@semantic-release/npm': 13.1.5

@@ -5,6 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
+  conventional-changelog-conventionalcommits: 8.0.0
   '@semantic-release/commit-analyzer': 13.0.1
   '@semantic-release/github': 12.0.9
   '@semantic-release/npm': 13.1.5
@@ -754,15 +755,10 @@ packages:
       { integrity: sha512-HdxRxuS8bBXVIuo4V82gvSwAXT0vYQUizrjs/izmPg5JdDstr8v8I5hduGL3iQbG+o310dUDxC4+LetuS5hu9w== }
     engines: { node: '>=22' }
 
-  conventional-changelog-conventionalcommits@10.4.0:
+  conventional-changelog-conventionalcommits@8.0.0:
     resolution:
-      { integrity: sha512-Rriac6ZrAlVm6cy9Bz4NSp+WMHpwNXoPIYex+HjCgduAVUSbnew29DQjQw0C4g9u3HtSYzGiGY+pdBXAZo+4aA== }
-    engines: { node: '>=22' }
-
-  conventional-changelog-conventionalcommits@7.0.2:
-    resolution:
-      { integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w== }
-    engines: { node: '>=16' }
+      { integrity: sha512-eOvlTO6OcySPyyyk8pKz2dP4jjElYunj9hn9/s0OB+gapTO8zwS9UQWrZ1pmF2hFs3vw1xhonOLGcGjy/zgsuA== }
+    engines: { node: '>=18' }
 
   conventional-changelog-writer@8.4.0:
     resolution:
@@ -2099,12 +2095,12 @@ snapshots:
 
   '@commitlint/config-conventional@18.6.0':
     dependencies:
-      conventional-changelog-conventionalcommits: 7.0.2
+      conventional-changelog-conventionalcommits: 8.0.0
 
   '@commitlint/config-conventional@21.2.2':
     dependencies:
       '@commitlint/types': 21.2.0
-      conventional-changelog-conventionalcommits: 10.4.0
+      conventional-changelog-conventionalcommits: 8.0.0
 
   '@commitlint/config-validator@21.2.0':
     dependencies:
@@ -2604,11 +2600,7 @@ snapshots:
     dependencies:
       '@conventional-changelog/template': 1.4.0
 
-  conventional-changelog-conventionalcommits@10.4.0:
-    dependencies:
-      '@conventional-changelog/template': 1.4.0
-
-  conventional-changelog-conventionalcommits@7.0.2:
+  conventional-changelog-conventionalcommits@8.0.0:
     dependencies:
       compare-func: 2.0.0
 
