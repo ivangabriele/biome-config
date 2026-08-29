@@ -12,6 +12,15 @@ jobs:
       issues: write
       pull-requests: write
     steps:
+      - name: Check npm token validity
+        run: |
+          STATUS="$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer ${NPM_TOKEN}" https://registry.npmjs.org/-/whoami)"
+          if [ "$STATUS" != "200" ]; then
+            echo "::error::NPM_TOKEN is invalid or expired (HTTP $STATUS)."
+            exit 1
+          fi
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Checkout
         uses: actions/checkout@v6
         with:
