@@ -1,3 +1,8 @@
-# semantic-release-config-base pins @semantic-release/npm@11, which predates npm trusted publishing (OIDC)
+# semantic-release-config-base pins plugin versions that predate semantic-release v25
+# (npm@11 lacks trusted publishing, release-notes-generator@12 crashes on v25 commit dates);
+# align them with the versions semantic-release v25 itself depends on
 overrides:
+  '@semantic-release/commit-analyzer': 13.0.1
+  '@semantic-release/github': 12.0.9
   '@semantic-release/npm': 13.1.5
+  '@semantic-release/release-notes-generator': 14.1.1
