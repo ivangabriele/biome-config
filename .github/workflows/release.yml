@@ -26,25 +26,21 @@ jobs:
           node-version: 24
       - name: Install
         run: pnpm install --frozen-lockfile
-      - name: Release
-        run: pnpm semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Get new version
-        run: echo "NEW_VERSION=$(npm pkg get version | sed 's/"//g')" >> "$GITHUB_ENV"
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v7
         with:
           git_config_global: true
           git_commit_gpgsign: true
+          git_committer_name: 'Ivan Gabriele (Github)'
+          git_committer_email: ivan.gabriele+github@protonmail.com
           git_user_signingkey: true
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           trust_level: ultimate
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v8
-        with:
-          branch: ci-release-v${{ env.NEW_VERSION }}
-          committer: 'Ivan Gabriele (Github) <ivan.gabriele+github@protonmail.com>'
-          commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
-          title: 'ci(release): v${{ env.NEW_VERSION }}'
-          token: ${{ secrets.GH_TOKEN }}
+      - name: Release
+        run: pnpm semantic-release
+        env:
+          GIT_AUTHOR_NAME: 'Ivan Gabriele (Github)'
+          GIT_AUTHOR_EMAIL: ivan.gabriele+github@protonmail.com
+          GIT_COMMITTER_NAME: 'Ivan Gabriele (Github)'
+          GIT_COMMITTER_EMAIL: ivan.gabriele+github@protonmail.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

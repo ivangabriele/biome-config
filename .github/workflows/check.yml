@@ -5,7 +5,6 @@ on: push
 jobs:
   lint:
     name: Lint
-    if: ${{ !startsWith(github.ref, 'refs/heads/ci-release-v') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
