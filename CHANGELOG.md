@@ -1,3 +1,25 @@
+## [2.0.1](https://github.com/ivangabriele/biome-config/compare/v2.0.0...v2.0.1) (2026-08-29)
+
+### Bug Fixes
+
+* **deps:** floor @biomejs/biome peer dependency to tested version ([b2f271e](https://github.com/ivangabriele/biome-config/commit/b2f271ebf295a71b89d80a37c774a47ee3682163))
+* make schema url version-agnostic ([cf67c6a](https://github.com/ivangabriele/biome-config/commit/cf67c6aac992abb16bd8021f419ca9bdb3d6b391))
+
+### Build System
+
+* **dev-deps:** align semantic-release plugins with core v25 ([cd67c12](https://github.com/ivangabriele/biome-config/commit/cd67c1232882fbc533803d9495cf8ee6e927ef9e))
+* **dev-deps:** override @semantic-release/npm to v13 for trusted publishing ([b431d09](https://github.com/ivangabriele/biome-config/commit/b431d09e21241d854df9c1f5a664b7cddec7e1a2))
+* **dev-deps:** pin conventionalcommits preset for release notes generation ([4dd2dfc](https://github.com/ivangabriele/biome-config/commit/4dd2dfc410c1a95a77f64b4a85ab9b5fe9bda0f4))
+* **dev-deps:** update all non-major dependencies ([#23](https://github.com/ivangabriele/biome-config/issues/23)) ([165b667](https://github.com/ivangabriele/biome-config/commit/165b667aa41c97f4f59a9aa0223a15406b419269))
+* **dev-deps:** update all non-major dependencies ([#28](https://github.com/ivangabriele/biome-config/issues/28)) ([a77ab83](https://github.com/ivangabriele/biome-config/commit/a77ab83c3e8df2b3773509fbd46f318006737e59))
+* **dev-deps:** update all non-major dependencies ([#30](https://github.com/ivangabriele/biome-config/issues/30)) ([f703210](https://github.com/ivangabriele/biome-config/commit/f703210ffc02506c01eec28c394b3e42cf004736))
+* **dev-deps:** update commitlint monorepo to v20 ([#24](https://github.com/ivangabriele/biome-config/issues/24)) ([d3a2987](https://github.com/ivangabriele/biome-config/commit/d3a2987cf981b70ec5e4eaf8ab3ddb2feab76146))
+* **dev-deps:** update commitlint monorepo to v21 ([#32](https://github.com/ivangabriele/biome-config/issues/32)) ([de0ff2b](https://github.com/ivangabriele/biome-config/commit/de0ff2b60f7e41b6b0e12e8df9fc56cb98efed21))
+* **dev-deps:** update dependency lint-staged to v17 ([#33](https://github.com/ivangabriele/biome-config/issues/33)) ([1c37512](https://github.com/ivangabriele/biome-config/commit/1c375122efcc26515564a3c499061ccc8af3dfd0))
+* **dev-deps:** update dependency semantic-release to v25 ([#25](https://github.com/ivangabriele/biome-config/issues/25)) ([84b4a89](https://github.com/ivangabriele/biome-config/commit/84b4a897a86682be18ad3e116da1af8dcec3f5d6))
+* migrate from yarn to pnpm ([1e290ea](https://github.com/ivangabriele/biome-config/commit/1e290ea5068217e259b83d89045dcd136210c7cc))
+
+
 ## [2.0.0](https://github.com/ivangabriele/biome-config/compare/v1.5.1...v2.0.0) (2025-08-01)
 
 
