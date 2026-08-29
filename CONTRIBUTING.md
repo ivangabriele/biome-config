@@ -6,8 +6,8 @@
 ## Getting Started
 
 ```sh
-yarn
-yarn prepare
+pnpm install
+pnpm prepare
 ```
 
 ## Release

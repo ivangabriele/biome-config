@@ -10,12 +10,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          cache: yarn
+          cache: pnpm
           node-version: 24
       - name: Install
-        run: yarn --immutable
+        run: pnpm install --frozen-lockfile
       - name: Lint
-        run: yarn test:lint
+        run: pnpm test:lint

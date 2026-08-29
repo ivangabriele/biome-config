@@ -4,6 +4,7 @@
   "license": "MIT",
   "version": "2.0.0",
   "type": "module",
+  "packageManager": "pnpm@11.16.0",
   "engines": {
     "node": ">=24"
   },
@@ -30,16 +31,12 @@
   "peerDependencies": {
     "@biomejs/biome": "^2"
   },
-  "resolutions": {
-    "ip": "2.0.1"
-  },
   "lint-staged": {
     "*.{md,yaml,yml}": "prettier --write",
     "*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": [
       "biome check --write --no-errors-on-unmatched"
     ]
   },
-  "packageManager": "yarn@4.12.0",
   "prettier": "@ivangabriele/prettier-config",
   "publishConfig": {
     "access": "public",

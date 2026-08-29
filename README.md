@@ -20,14 +20,14 @@ My most commonly used [Biome](https://biomejs.dev) configuration.
 Run:
 
 ```sh
-yarn add -DE @biomejs/biome @ivangabriele/biome-config
+pnpm add -DE @biomejs/biome @ivangabriele/biome-config
 ```
 
 Add this line to your `biome.jsonc`:
 
 ```jsonc
 {
-  "$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
   "extends": ["@ivangabriele/biome-config"],
 }
 ```
@@ -47,7 +47,7 @@ Then add this line to your `package.json`:
 Run:
 
 ```sh
-yarn add -DE @ivangabriele/biome-config lint-staged
+pnpm add -DE @ivangabriele/biome-config lint-staged
 ```
 
 Then add this line to your `package.json`:
@@ -55,7 +55,7 @@ Then add this line to your `package.json`:
 ```json
 {
   "lint-staged": {
-    "*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": ["yarn test:lint"]
+    "*.{cjs,cts,d.cts,d.mts,d.ts,js,json,jsonc,jsx,mjs,mts,ts,tson,tsx}": ["pnpm test:lint"]
   }
 }
 ```
@@ -72,7 +72,7 @@ Install [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biom
 ```json
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.biome": "explicit",
+    "source.fixAll.biome": "explicit"
   },
   "editor.defaultFormatter": "biomejs.biome",
   "[javascript]": {
