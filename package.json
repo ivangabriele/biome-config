@@ -43,7 +43,9 @@
     "provenance": true
   },
   "release": {
-    "extends": "@ivangabriele/semantic-release-config-base"
+    "extends": "@ivangabriele/semantic-release-config-base",
+    "failComment": false,
+    "failTitle": false
   },
   "author": {
     "name": "Ivan Gabriele",
