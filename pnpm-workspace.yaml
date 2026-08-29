@@ -1,0 +1,3 @@
+# semantic-release-config-base pins @semantic-release/npm@11, which predates npm trusted publishing (OIDC)
+overrides:
+  '@semantic-release/npm': 13.1.5
