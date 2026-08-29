@@ -1,3 +1,10 @@
 {
-  "extends": ["github>ivangabriele/renovate-config"]
+  "extends": ["github>ivangabriele/renovate-config"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "matchPackageNames": ["@biomejs/biome"],
+      "rangeStrategy": "bump"
+    }
+  ]
 }

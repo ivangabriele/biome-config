@@ -29,7 +29,7 @@
     "semantic-release": "25.0.9"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^2"
+    "@biomejs/biome": "^2.5.11"
   },
   "lint-staged": {
     "*.{md,yaml,yml}": "prettier --write",
